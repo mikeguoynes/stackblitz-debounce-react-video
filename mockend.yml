@@ -25,4 +25,4 @@ models:
       id: { int: [1, 100] }
       name: { loremWords: [2, 4] }
       price: { int: [10, 200] }
-      image: { static: "https://via.placeholder.com/150" }
+      image: { oneOfString: ["https://via.placeholder.com/150"] }
