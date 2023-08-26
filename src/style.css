@@ -1,4 +1,35 @@
-h1,
-p {
-  font-family: Lato;
+/* Container for the search bar and button */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+/* Search input styling */
+.search-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  outline: none;
+  font-size: 18px;
+}
+
+/* Focus state for input */
+.search-input:focus {
+  border-color: #4285f4;
+  box-shadow: 0 0 8px rgba(66, 133, 244, 0.2);
+}
+
+/* Search button styling */
+.search-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  margin-left: 10px;
+  padding: 10px 20
 }
